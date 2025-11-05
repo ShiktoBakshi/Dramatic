@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme{
+    --font-gri: "Griffy", system-ui;
+    --font-mon: "Montserrat", sans-serif;
+   
+}
+
+html,body,#root{
+    @apply bg-black text-white min-h-screen
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #facc15 !important;
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet{
+background-color: rgba(255,255,00,0.5) !important;
+}
+.swiper-pagination-bullet-active{
+background-color: #facc15 !important;
+}
