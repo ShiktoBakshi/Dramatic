@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
                
                 <div className="navbar-end">
-                    <div className=" flex justify-center items-center h-8 p-2 mr-3 rounded-full backdrop-blur-md text-amber-50 border-none">
+                    <div className=" flex justify-center items-center h-8 p-2 lg:mr-3 mr-1 rounded-full backdrop-blur-md text-amber-50 border-none">
                         <svg className="h-[1em] mr-2 opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
                                 strokeLinejoin="round"
