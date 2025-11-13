@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import CategoriesNav from "./CategoriesNav";
 import MovieCard from "./MovieCard";
-// import toast from "react-hot-toast";
+
 
 
 
@@ -19,10 +19,7 @@ const MovieGallery = () => {
         fetch('/movie.json')
         .then(res=>res.json())
         .then(data=>setMovie(data))
-        // .catch((error)=>{
-        //        console.log("erreo")
-        //     toast.error("Failed movie Data")
-        // })
+       
         .finally(()=>setLoading(false))
     },[])
 const categories =["All", ...new Set(movie.map(m=>m.category))]
